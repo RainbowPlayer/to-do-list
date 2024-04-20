@@ -1,0 +1,32 @@
+.container {
+    margin: 0 30px;
+}
+
+.container-todolist {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 40px
+}
+  
+.column {
+    width: 48%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+  
+.column h2 {
+    text-align: center;
+    color: #333;
+}
+  
+.button-todolist {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+  

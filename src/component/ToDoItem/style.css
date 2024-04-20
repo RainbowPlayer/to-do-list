@@ -1,0 +1,37 @@
+.container-todoitem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s;
+}
+
+.container-todoitem:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.text {
+    flex-grow: 1;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.button-todoitem {
+    padding: 6px 12px;
+    margin-left: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #bbb;
+}
+
+
+  
